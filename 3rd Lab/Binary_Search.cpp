@@ -34,5 +34,10 @@ int main(){
         cout << "Found " << Loc << endl;
     }
 
+    cout << "Sorted Array: ";
+    for (int i=0; i<n;i++){ 
+        cout << A[i] << " ";
+    }
+
 
 }
