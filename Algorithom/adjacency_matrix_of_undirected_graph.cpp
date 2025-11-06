@@ -22,8 +22,7 @@ int main() {
         int a,b;
         cin >> a >> b; 
         asj_mat[a][b] = 1;
-        asj_mat[b][a] = 1;      // Undirected graph
-
+        asj_mat[b][a] = 1;     
     }
       for (int i=0; i<n; i++){
         for (int j=0; j<n; j++){
